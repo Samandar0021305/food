@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 // img
 import img from "../../assets/icon/topbar-logo.svg";
 import toogle from "../../assets/icon/navbar-toogle.png";
-import { useEffect, useState } from "react";
+
 
 function Topbar(){
     const style = {
@@ -16,15 +16,7 @@ function Topbar(){
         opacity:"0.5"
     }
 
-    const [x,setX] = useState(null);
-    useEffect(()=>{
-        fetch(`https://api-pero.abba.uz/api/products/`)
-        .then(response => response.json())
-        .then(data => {
-            setX(data)
-            console.log(data);
-        },[])
-    })
+   
 
     return(
         <nav className="navbar container">
