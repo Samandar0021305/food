@@ -51,6 +51,7 @@ function Topbar(){
                     <Link className="navbar__link" to="/food" style={style}>
                     FOR TENANTS
                     </Link>
+                    
                     <span className="navbar__hover"></span>
                 </li>
                 <li className="navbar__item">

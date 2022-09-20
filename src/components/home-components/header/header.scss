@@ -1,0 +1,40 @@
+.header{
+    margin-top: 20px;
+    background-color: #ff6900;
+    height: 80vh;
+    &__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        &__box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+        }
+    }
+    &__list li {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+        transition: 1s ease;
+    }
+    &__list h2{
+        color: white;
+        font-size: 30px;
+    }
+    &__list p{
+        color: white;
+        font-size: 24px;
+    }
+    &__list img{
+        display: flex;
+        width: 50%;
+    }
+    
+
+}
