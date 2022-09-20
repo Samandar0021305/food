@@ -2,7 +2,10 @@ import Api from "./HeaderApi";
 import "./header.scss";
 import { useState } from "react";
 
+import 'aos';
 
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 function Header(){
     
    const [api,setApi] = useState(Api)
@@ -35,15 +38,15 @@ function Header(){
                     if(element.id == x){
                         return(
                             <li>
-                               <button onClick={handleOrqaga}>click</button>
+                               <ArrowBackIcon className="header__ArrowBackIcon" onClick={handleOrqaga} />
                                <div className="header__list__box">
-                                   <span>
+                                   <span data-aos="fade-right">
                                     <h2>{element.title}</h2>
                                     <p>{element.text}</p>
                                    </span>
                                    <img src={element.img} alt="" />
                                </div>
-                               <button onClick={handleOne}> click</button>
+                               <ArrowForwardIcon className="header__ArrowBackIcon" onClick={handleOne} /> 
                             </li>
                         )
                     }

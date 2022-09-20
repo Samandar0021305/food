@@ -1,4 +1,5 @@
 import Header from "../../components/home-components/header/Header";
+import Section from "../../components/home-components/section/Section";
 import Topbar from "../../components/topbar/Topbar";
 
 function Home(){
@@ -6,6 +7,7 @@ function Home(){
         <div>
             <Topbar />
             <Header />
+            <Section />
         </div>
     )
 }
