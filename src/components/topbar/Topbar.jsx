@@ -13,7 +13,8 @@ function Topbar(){
         textTransform:"uppercase",
         fontSize:"14px",
         marginBottom:"7px",
-        opacity:"0.5"
+        opacity:"0.5",
+        cursor:"pointer"
     }
 
    
