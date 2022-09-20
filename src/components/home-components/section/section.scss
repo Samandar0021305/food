@@ -12,6 +12,8 @@
     &__wrapper img{
         width: 60px;
         height: 60px;
+        cursor: pointer;
+        object-fit: cover;
     }
     &__list{
         display: flex;
