@@ -13,7 +13,14 @@ function Section(){
 
               <div className="section__wrapper">
                  <div className="container">
-                    
+                    <ul className="section__list">
+                        {Api.map((element)=>{
+                            <li className="section__item">
+                                <img src={element.img} alt="logo" />
+                                <h2>{element.text}</h2>
+                            </li>
+                        })}
+                    </ul>
                  </div>
              </div> 
         </section>
