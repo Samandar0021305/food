@@ -25,11 +25,45 @@
         padding-bottom: 40px;
     }
     &__list li{
-        width: 27%;
+        width: 370px;
         display: flex;
         align-items: center;
     }
     &__list h2{
         margin-left: 10px;
+        color: white;
+    }
+}
+
+
+@media (max-width:580px){
+    .section{
+        &__list{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+            flex-direction: column;
+        }
+    }
+}
+@media (max-width:472px){
+    .section{
+        margin: 0; 
+        padding: 0;
+       &__list li{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        width: 100% !important;
+       }
+       &__list h2{
+        // margin: 0;
+        text-align: center;
+        width: 100% !important;
+       }
     }
 }
