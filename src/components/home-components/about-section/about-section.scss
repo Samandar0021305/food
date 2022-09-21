@@ -1,0 +1,39 @@
+.aboutsection{
+    padding-top: 30px;
+    &__title{
+        text-align: center;
+        font-size: 40px;
+        color: #636363;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        flex-wrap: wrap;
+    }
+    &__list li{
+        width: 500px;
+    }
+    &__list p{
+        color: #636363;
+        font-size: 16px;
+        min-height: 48px;
+    }
+}
+
+
+
+@media (max-width:500px){
+    .aboutsection{
+        &__list{
+            flex-direction: column;
+        }
+        &__list li{
+            width: 100%;
+            margin-top: 20px;
+        }
+        &__list p{
+            text-align: center;
+        }
+    }
+}
