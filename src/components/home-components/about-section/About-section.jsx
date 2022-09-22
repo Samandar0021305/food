@@ -1,5 +1,7 @@
 import "./about-section.scss";
 
+import api from "./AboutsSection.js";
+
 function AboutSection(){
     return(
         <section className="aboutsection">
@@ -13,6 +15,19 @@ function AboutSection(){
                         <p>Infrastructure "FOODCITY" includes two types of shopping malls where you can make purchases in large quantities at wholesale prices and in small quantities at very reasonable prices. Office - hotel buildings, warehouse complexes and premises, various restaurants and cafes, parking for trucks and cars, waiting areas for trucks.</p>
                     </li>
                 </ul>
+
+                <ul className="aboutsection__box__list">
+                        {api.map((element)=>{
+                            return(
+                                <li key={element.id}>
+                                    <img src={element.img} alt="logo" />
+                                    <p>{element.text}</p>
+                                    <h2>{element.title}</h2>
+                                </li>
+                            )
+                        })}
+                </ul>
+
             </div>
         </section>
     )
