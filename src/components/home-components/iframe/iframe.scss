@@ -23,8 +23,16 @@
 
 @media (max-width:500px){
     .iframe{
+        &__list{
+            padding-left: 0;
+            padding-right: 0;
+        }
         &__list li{
             width: 100%;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 }
