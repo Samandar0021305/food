@@ -1,9 +1,9 @@
-.header{
+.headerAbout{
     background-image: url("../../../assets/img/bazar-pravyj.jpg");
     // height: 98vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    max-height: 90vh;
+    height: 94vh;
     &__title{
         font-size: 40px;
         text-align: center;
@@ -15,5 +15,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+
+
+@media (max-width:400px){
+    .headerAbout{
+        height: 70vh;
     }
 }
