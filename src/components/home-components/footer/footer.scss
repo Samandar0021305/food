@@ -1,3 +1,13 @@
 .footer{
     background-color: #7fba31;
+    padding: 20px 0;
+    &__topbar{
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        flex-wrap: wrap;
+    }
+    &__topbar ul{
+        width: 300px;
+    }
 }
