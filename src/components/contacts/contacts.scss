@@ -24,6 +24,7 @@
         display: flex;  
         border: 2px solid rgba(85, 82, 82,0.7);
         width: 400px;
+        margin-top: 20px;
         padding: 10px 20px;
        
     }
@@ -34,7 +35,7 @@
     &__input{
         display: flex;  
         border: 2px solid rgba(85, 82, 82,0.7);
-        width: 400px;
+        width: 50%;
         padding: 10px 20px;
     
         margin-top: 30px;
@@ -43,6 +44,21 @@
       border: 2px solid #7fba31;
     }
     }
+    &__btn{
+        display: flex;
+        margin: 20px auto;
+        background-color: #7fba31;
+        padding: 20px 50px;
+        border: none;
+        color: white;
+        border-radius: 12px;
+        transition: background-color 0.4s ease-in;
+        cursor: pointer;
+    &:hover{
+        background-color: #ff6900;
+    }
+    }
+
 
 
 }
@@ -55,4 +71,18 @@ textarea{
 textarea:focus{
     outline: none;
     border: 2px solid #7fba31;
+}
+
+@media (max-width:500px){
+    .contacts{
+        &__input{
+            width: 100% !important;
+        }
+    }
+   
+
+    
+    textarea{
+        width: 100%;
+    }
 }

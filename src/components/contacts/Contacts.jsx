@@ -12,6 +12,7 @@ function Contacts(){
                 <input className="contacts__input" type="text" />
                 <br />
                 <textarea placeholder="Message" id="" cols="30" rows="10"></textarea>
+               <input className="contacts__btn" type="submit"  />
             </form>
         </div>
     )
