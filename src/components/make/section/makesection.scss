@@ -1,0 +1,36 @@
+.makesection{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    &__title{
+        color: #636363;
+        font-size: 45px;
+        text-align: center;
+    }
+    &__list{
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__item{
+        margin-top: 20px;
+        box-shadow: 0 0 24px rgba(0, 0, 0 , 18%);
+        border-radius: 8px;
+        text-align: center;
+        padding-top: 2em;
+        padding-left: 20px;
+        padding-right: 20px;
+        min-height: 265px;
+        width: 250px;
+    }
+    &__item h3{
+        text-align: center;
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    &__item p{
+        font-size: 16px;
+        font-weight: 700;
+    }
+}

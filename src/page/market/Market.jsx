@@ -1,4 +1,5 @@
 import MakeHeader from "../../components/make/header/Makeheader";
+import MakeSection from "../../components/make/section/MakeSection";
 import Topbar from "../../components/topbar/Topbar";
 
 function Market(){
@@ -6,6 +7,7 @@ function Market(){
         <>
         <Topbar />
         <MakeHeader />
+        <MakeSection />
         </>
     )
 }
