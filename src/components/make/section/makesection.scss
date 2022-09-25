@@ -15,7 +15,7 @@
     }
     &__item{
         margin-top: 20px;
-        box-shadow: 0 0 24px rgba(0, 0, 0 , 18%);
+        box-shadow: 0 0 9px rgba(0, 0, 0 , 0.5);
         border-radius: 8px;
         text-align: center;
         padding-top: 2em;
@@ -32,5 +32,18 @@
     &__item p{
         font-size: 16px;
         font-weight: 700;
+    }
+}
+
+@media (max-width:470px) {
+    .makesection{
+        &__list{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        &__item{
+            width: 90%;
+        }
     }
 }
