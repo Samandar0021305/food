@@ -1,0 +1,38 @@
+.team{
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    &__title{
+        text-align: center;
+        color: #636363;
+        font-size: 43px;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    &__item{
+        width: 150px;
+        filter: drop-shadow(0 5px 24px rgba(0, 0, 0, .15));
+        border-radius: 16px;
+        min-height: 300px;
+        background: #f8f8f8;
+        padding: 10px;
+        margin-top: 30px;
+    }
+    &__item h4{
+        text-align: center;
+        color:  #636363;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    &__item img{
+        display: flex;
+        width: 100%;
+        cursor: pointer;
+        // height: 40% !important;
+    }
+}
