@@ -1,5 +1,72 @@
 .AboutUs{
     padding-top: 20px;
+
+    &__box{
+
+        &__list{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        &__item {
+            width: 300px;
+            margin-top: 30px;
+            min-height: 390px;
+            border-radius: 12px;
+            border: 1px solid #7fba31;
+            transition: background-color 0.4s ease-in ;
+            &:hover{
+                background-color: #7fba31;
+            }
+            &:hover h2{
+                color: white;
+            }
+            &:hover button{
+                background-color: white;
+            }
+            
+        }
+        &__btn{
+            text-align: center;
+            display: flex;
+            background-color: transparent;
+            border: 1px solid #7fba31;
+            margin: 10px auto;
+            padding: 12px 55px;
+            margin-bottom: 20px;
+            color: #000;
+            transition: color 0.4s ease-in;
+            font-weight: 800;
+            cursor: pointer;
+            
+        }
+        &__box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        &__title{
+            color: #7fba31;
+            font-size: 25px;
+            text-align: center;
+            margin: 20px 0;
+            transition: color 0.4s ease-in;
+        }
+        &__text{
+            text-align: center;
+            color: #636363;
+            font-size: 16px;
+        }
+        &__item img{
+            display: flex;
+            width: 100%;
+            border-radius: 12px;
+        }
+    }
+
     &__subject{
         margin-top: 30px;
         text-align: center;
@@ -9,7 +76,7 @@
     &__list{
         padding-top: 60px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
     }
@@ -18,7 +85,7 @@
         width: 100%;
     }
     &__item{
-        width: 500px;
+        width: 550px;
     }
     &__text{
         color: #636363;
