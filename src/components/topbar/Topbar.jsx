@@ -43,7 +43,7 @@ function Topbar(){
                     <span className="navbar__hover"></span>
                 </li>
                 <li className="navbar__item">
-                    <Link className="navbar__link" to="/food" style={style}>
+                    <Link className="navbar__link" to="/Warehouses" style={style}>
                     WAREHOUSES
                     </Link>
                     <span className="navbar__hover"></span>
