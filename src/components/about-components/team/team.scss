@@ -36,3 +36,19 @@
         // height: 40% !important;
     }
 }
+
+
+@media (max-width:400px){
+    .team{
+        &__item{
+            width: 90%;
+            margin-top: 20px;
+            min-height: 500px;
+        }
+        &__list{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}

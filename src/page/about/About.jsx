@@ -3,7 +3,7 @@ import HeaderAbout from "../../components/about-components/header/HeaderAbout.js
 import SectionAbout from "../../components/about-components/section/Section-about";
 import AboutUs from "../../components/about-components/aboutUs/AboutUs";
 import Team from "../../components/about-components/team/Team";
-
+import Footer from "../../components/home-components/footer/Footer";
 function About(){
     return(
         <>
@@ -12,6 +12,7 @@ function About(){
          <SectionAbout />
          <AboutUs />
          <Team />
+         <Footer />
         </>
     )
 }
