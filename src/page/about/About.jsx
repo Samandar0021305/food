@@ -4,6 +4,7 @@ import SectionAbout from "../../components/about-components/section/Section-abou
 import AboutUs from "../../components/about-components/aboutUs/AboutUs";
 import Team from "../../components/about-components/team/Team";
 import Footer from "../../components/home-components/footer/Footer";
+
 function About(){
     return(
         <>
