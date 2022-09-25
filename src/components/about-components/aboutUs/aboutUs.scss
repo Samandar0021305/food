@@ -1,0 +1,50 @@
+.AboutUs{
+    padding-top: 20px;
+    &__subject{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 50px;
+        color: #636363;
+    }
+    &__list{
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__list img{
+        display: flex;
+        width: 100%;
+    }
+    &__item{
+        width: 500px;
+    }
+    &__text{
+        color: #636363;
+        font-size: 18px;
+        line-height: 25px;
+        width: 70%;
+    }
+}
+
+
+@media (max-width:600px){
+    .AboutUs{
+        &__list{
+            flex-direction: column;
+        }
+        &__item{
+            width: 90%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        &__item p{
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+}
