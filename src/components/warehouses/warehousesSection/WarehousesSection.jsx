@@ -24,7 +24,7 @@ function WarehousesSection(){
 
             <ul className="WarehousesSection__list__two">
                <li className="WarehousesSection__list__two__item">
-                
+               
                </li>
             </ul>     
 
