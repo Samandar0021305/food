@@ -1,0 +1,16 @@
+.warehousesHeader{
+    background-image: url("../../../assets/img/WarehousesHader.jpg");
+    background-repeat: no-repeat;
+    height: 90vh;
+    &__box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__box h2{
+        color: white;
+        font-size: 40px;
+    }
+}
