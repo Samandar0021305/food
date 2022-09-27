@@ -21,6 +21,13 @@ function WarehousesSection(){
                     </li>
                 </ul>
                 <span className="WarehousesSection__bg"></span>
+
+            <ul className="WarehousesSection__list__two">
+               <li className="WarehousesSection__list__two__item">
+                
+               </li>
+            </ul>     
+
         </div>
     )
 }
