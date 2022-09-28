@@ -1,6 +1,7 @@
 import "./WarehousesSection.scss";
 
 import WarehousesSection1 from "../../../assets/img/WarehousesSection1.jpeg"
+import WarehousesSection2 from "../../../assets/img/WarehousesSection2.jpeg"
 
 function WarehousesSection(){
     return(
@@ -24,9 +25,19 @@ function WarehousesSection(){
 
             <ul className="WarehousesSection__list__two">
                <li className="WarehousesSection__list__two__item">
-               
+                <img src={WarehousesSection2} alt="logo" />
                </li>
-            </ul>     
+               <li className="WarehousesSection__list__two__item">
+                    <h2>Cross docking</h2>
+                    <p>Delivery of goods sent from different manufacturers. This method allows you to combine
+                    (consolidate) goods from different suppliers into one batch, which will then be sent to the customer.
+                    Small batches of various goods are first brought to the cross-docking site, after which they
+                    are reloaded into one transport and sent to the end customer. Cross-docking also allows you to get bulk from
+                    manufacturer, and then send it in small quantities to various retail outlets.</p>
+               </li>
+            </ul>    
+
+             <span className="WarehousesSection__bg"></span> 
 
         </div>
     )
