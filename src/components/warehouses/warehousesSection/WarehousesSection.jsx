@@ -55,6 +55,9 @@ function WarehousesSection(){
                             picking carts serve as orders.</p>
                     </li>
                 </ul>
+
+                <span className="WarehousesSection__bg"></span> 
+
              <ul className="WarehousesSection__list__one">
                     <li className="WarehousesSection__list__item">
                         <img src={WarehousesSection4} alt="" />
