@@ -10,4 +10,14 @@
     &__topbar ul{
         width: 300px;
     }
+    &__topbar p , &__topbar a , &__topbar h2{
+        color: white;
+    }
+    &__topbar a{
+        margin-top: 20px;
+        display: flex;
+    }
+    &__topbar p{
+        line-height: 20px;
+    }
 }
