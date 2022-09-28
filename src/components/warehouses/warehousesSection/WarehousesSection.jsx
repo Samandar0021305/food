@@ -4,9 +4,12 @@ import WarehousesSection1 from "../../../assets/img/WarehousesSection1.jpeg"
 import WarehousesSection2 from "../../../assets/img/WarehousesSection2.jpeg"
 import WarehousesSection3 from "../../../assets/img/WarehousesSection3.jpeg"
 import WarehousesSection4 from "../../../assets/img/WarehousesSection4.jpeg"
+import Contacts from "../../contacts/Contacts";
+import Footer from "../../home-components/footer/Footer.jsx"
 
 function WarehousesSection(){
     return(
+        <>
         <div className="WarehousesSection container">
                 <ul className="WarehousesSection__list__one">
                     <li className="WarehousesSection__list__item">
@@ -71,7 +74,13 @@ function WarehousesSection(){
                     racks in small containers.</p>
                     </li>
                 </ul>
+
+         
+
         </div>
+        <Contacts />
+        <Footer />
+    </>
     )
 }
 
