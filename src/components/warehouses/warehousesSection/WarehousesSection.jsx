@@ -2,6 +2,8 @@ import "./WarehousesSection.scss";
 
 import WarehousesSection1 from "../../../assets/img/WarehousesSection1.jpeg"
 import WarehousesSection2 from "../../../assets/img/WarehousesSection2.jpeg"
+import WarehousesSection3 from "../../../assets/img/WarehousesSection3.jpeg"
+import WarehousesSection4 from "../../../assets/img/WarehousesSection4.jpeg"
 
 function WarehousesSection(){
     return(
@@ -39,6 +41,33 @@ function WarehousesSection(){
 
              <span className="WarehousesSection__bg"></span> 
 
+
+             <ul className="WarehousesSection__list__one">
+                    <li className="WarehousesSection__list__item">
+                        <img src={WarehousesSection3} alt="" />
+                    </li>
+                    <li className="WarehousesSection__list__item">
+                        <h2>Large scale storage</h2>
+                        <p>For stowage and handling of goods, the following equipment is used: forklifts for
+                            unloading / loading and delivering goods around the warehouse, stackers for installing pallets on racks, reach trucks
+                            for climbing to great heights. The presence of all three types of equipment allows you to carefully handle
+                            loads. You can also move pallets using a pallet truck, and for picking and sorting
+                            picking carts serve as orders.</p>
+                    </li>
+                </ul>
+             <ul className="WarehousesSection__list__one">
+                    <li className="WarehousesSection__list__item">
+                        <img src={WarehousesSection4} alt="" />
+                    </li>
+                    <li className="WarehousesSection__list__item">
+                        <h2>Small-sized storage</h2>
+                        <p>For small goods, shelf storage in individual and group packages for:
+                    three-tiered mezzanine;
+                    a three-tiered mezzanine in pull-out containers;
+                    on the lower tier of pallet racks;
+                    racks in small containers.</p>
+                    </li>
+                </ul>
         </div>
     )
 }
